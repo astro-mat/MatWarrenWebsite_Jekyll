@@ -23,7 +23,7 @@ title: "Mat Warren"
             <a href="projects/yats.html" class="project-tile-link">
 
                 <img
-                    src="images/YATS_Image_1.jpg"
+                    src="{{ projects.thumbnail }}"
                     alt="You Are the Signal (YATS) interactive audiovisual installation">
 
                 <div class="project-info">
@@ -59,8 +59,8 @@ title: "Mat Warren"
 
         </article>
 
-    {% endfor %}   
+    {% endfor %}
 
-    </div>
+</div>
 
 </main>
