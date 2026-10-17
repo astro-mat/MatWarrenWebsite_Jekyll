@@ -1,10 +1,9 @@
 ---
 layout: project
-
 title: YOU ARE THE SIGNAL
-
+permalink: /projects/yats/
 subtitle: Interactive audiovisual installation
-
+thumbnail: /images/YATS_1.jpg
 date: 2026-09-18
 ---
 
