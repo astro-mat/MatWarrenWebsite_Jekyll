@@ -1,0 +1,311 @@
+/* ========================================
+JOURNAL GRID
+======================================== */
+
+
+.project-grid {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.project-tile {
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-tile[hidden] {
+    display: none !important;
+}
+
+.project-tile-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-tile img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+
+
+/* ========================================
+   PROJECT INFORMATION OVERLAY
+======================================== */
+
+.project-info {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.68);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.project-info h2 {
+    margin: 0 0 12px;
+    font-size: clamp(1.5rem, 2.2vw, 2.6rem);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.045em;
+}
+
+.project-info p {
+    margin: 0 0 5px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.project-tile-link:hover .project-info,
+.project-tile-link:focus-visible .project-info {
+    opacity: 1;
+}
+
+.project-tile-link:hover img {
+    transform: scale(1.02);
+}
+
+.project-tile-link:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: -4px;
+}
+
+/* ========================================
+HEADER AND NAVIGATION
+======================================== */
+
+.site-header {
+position: sticky;
+z-index: 10;
+width: 100%;
+margin: 0;
+padding: 0 2.5%;
+background: #fff;
+border-bottom: 1px solid #e5e5e5;
+}
+
+.site-header .navbar {
+min-height: 90px;
+padding: 0;
+}
+
+.site-header .navbar-brand {
+margin: 0;
+padding: 0;
+color: #111;
+font-size: 1.35rem;
+font-weight: 500;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.site-header .navbar-nav {
+align-items: center;
+gap: 34px;
+}
+
+.site-header .nav-link {
+padding: 10px 0 !important;
+color: black;
+font-size: 1.2rem;
+font-weight: 500;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+white-space: nowrap;
+transition: color 0.2s ease;
+}
+
+.site-header .nav-link:hover,
+.site-header .nav-link.active {
+    
+}
+
+.site-header .nav-link.active {
+box-shadow: inset 0 -1px #111;
+}
+
+/* ========================================
+FULL-WIDTH JOURNAL PAGE
+======================================== */
+
+.grid-page {
+width: 100%;
+max-width: none;
+margin: 0;
+padding: 0;
+}
+
+/* Introductory text */
+
+.grid-page > div:first-child {
+padding: 36px 2.5% 24px;
+}
+
+.grid-page > div:first-child p {
+max-width: 900px;
+margin: 0;
+font-size: 1.1rem;
+line-height: 1.6;
+}
+
+/* Page heading */
+
+.grid-page > h1 {
+margin: 0;
+padding: 12px 2.5% 24px;
+}
+
+/* Images extend edge to edge */
+
+.grid-page .project-grid {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* ========================================
+TABLET
+======================================== */
+
+@media (max-width: 991px) {
+.project-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+```
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+}
+
+.site-header .navbar {
+    min-height: 76px;
+}
+
+.site-header .navbar-nav {
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 0;
+}
+
+.site-header .navbar-collapse {
+    padding-bottom: 12px;
+}
+
+.site-header .nav-link {
+    font-size: 0.95rem;
+}
+
+.site-header .navbar-toggler {
+    border: 0;
+    box-shadow: none;
+}
+```
+
+}
+
+/* ========================================
+MOBILE
+======================================== */
+
+@media (max-width: 576px) {
+.project-grid {
+grid-template-columns: 1fr;
+}
+
+```
+.project-info {
+    padding: 18px;
+}
+
+.project-info h2 {
+    font-size: 1.6rem;
+}
+
+.project-info p {
+    font-size: 0.75rem;
+}
+
+.site-header {
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.site-header .navbar {
+    min-height: 68px;
+}
+
+.site-header .navbar-brand {
+    font-size: 1.1rem;
+}
+
+.site-header .nav-link {
+    font-size: 0.95rem;
+}
+
+.grid-page > div:first-child {
+    padding: 24px 4% 20px;
+}
+
+.grid-page > div:first-child p {
+    font-size: 1rem;
+}
+
+.grid-page > h1 {
+    padding: 12px 4% 18px;
+}
+```
+
+}
+
+
+
+/* JOURNAL HEADING ANIMATION */
+
+.grid-page > h1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.grid-page > h1.is-entering {
+    animation: heading-enter 700ms ease both;
+}
+
+@keyframes heading-enter {
+    0% {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .grid-page > h1.is-entering {
+        animation: none;
+    }
+}
