@@ -18,40 +18,25 @@ title: "Mat Warren"
 
     {% for project in site.projects %}
 
-        <article class="project-tile project-tile-large" data-category="selected-projects">
+        <article class="project-tile project-tile-{{ project.tile_size }}" data-category="{{ project.categories | join: ' ' }}">
 
-            <a href="projects/yats.html" class="project-tile-link">
+            <a href="{{ project.url }}" class="project-tile-link">
 
                 <img
-                    src="{{ projects.thumbnail }}"
-                    alt="You Are the Signal (YATS) interactive audiovisual installation">
+                    src="{{ project.thumbnail }}"
+                    alt="{{ project.title }} {{ project.subtitle }}">
 
                 <div class="project-info">
 
-                    <h2>YOU ARE THE SIGNAL (YATS)</h2>
+                    <h2>{{ project.title }}</h2>
 
                     <p>
-                        Interactive audiovisual installation
+                        {{ project.subtitle }}
                     </p>
 
                     <p>
-                        18.09.2026
+                        {{ project.date | date: "%d.%m.%Y" }}
                     </p>
-
-                    <div class="project-description">
-
-                        <!-- <p>
-                            An interactive audiovisual installation where the
-                            movement of participants shapes sound and projected
-                            visuals in real time.
-                        </p>
-
-                        <p>
-                            Developed for Culture Night 2026 at The Dock in
-                            Carrick-on-Shannon.
-                        </p> -->
-
-                    </div>
 
                 </div>
 
