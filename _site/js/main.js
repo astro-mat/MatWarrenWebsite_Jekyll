@@ -5,7 +5,7 @@
 const filterTitle = document.getElementById('journal-filter-title');
 
 const buttons = document.querySelectorAll('.nav-link[data-filter]');
-const entries = document.querySelectorAll('.journalEntry');
+const entries = document.querySelectorAll('.project-tile');
 
 if (buttons.length && entries.length) {
 
@@ -19,13 +19,20 @@ if (buttons.length && entries.length) {
         
         if (filterTitle) {
             const titles = {
-                all: 'JOURNAL',
+                all: '',
                 'selected-projects': 'SELECTED PROJECTS',
                 music: 'MUSIC',
-                'live-sound': 'LIVE SOUND'
             };
             
-            filterTitle.textContent = titles[filter] || 'JOURNAL';
+            const title = titles[filter] || '';
+
+            filterTitle.textContent = title;
+
+            if (title === '') {
+                filterTitle.style.display = 'none';
+            } else {
+                filterTitle.style.display = '';
+            }
 
         }
         
@@ -195,7 +202,7 @@ if (buttons.length && entries.length) {
 // MORE / LESS
 // ========================================
 
-const moreButtons = document.querySelectorAll('.journalEntry-more');
+const moreButtons = document.querySelectorAll('.project-tile-more');
 
 if (moreButtons.length) {
 
@@ -203,8 +210,8 @@ if (moreButtons.length) {
 
         button.addEventListener('click', () => {
 
-            const entry = button.closest('.journalEntry');
-            const extras = entry.querySelectorAll('.journalEntry-extra');
+            const entry = button.closest('.project-tile');
+            const extras = entry.querySelectorAll('.project-tile-extra');
 
             const isOpen = extras[0].classList.contains('is-open');
 

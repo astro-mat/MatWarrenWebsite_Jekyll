@@ -1,6 +1,9 @@
 ---
 layout: project
 title: éist Radio
+activity_type: Broadcast
+venue:
+collaborators:
 permalink: /projects/EistRadio150726/
 subtitle: Radio Play
 thumbnail: /images/eist_radio.jpg

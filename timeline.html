@@ -1,0 +1,71 @@
+---
+layout: default
+title: Timeline
+permalink: /timeline/
+---
+
+<main class="timeline-page">
+
+    <h1>ACTIVITY TIMELINE</h1>
+
+    <hr>
+
+    <table class="timeline-table">
+
+        <thead>
+            <tr>
+                <th>Start</th>
+                <th>End</th>
+                <th>Event</th>
+                <th>Venue</th>
+                <th>Activity</th>
+                <th>Collaborators</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            {% assign projects = site.projects | sort: "date" | reverse %}
+
+            {% for project in projects %}
+
+            <tr>
+                <td>
+                    {{ project.date | date: "%d.%m.%Y" }}
+                </td>
+                <td>
+                    {% if project.end_date %}
+                        {{ project.end_date | date: "%d.%m.%Y" }}
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{{ project.url }}">
+                        {{ project.title }}
+                    </a>
+
+                    {% if project.subtitle %}
+                        <div class="timeline-subtitle">
+                            {{ project.subtitle }}
+                        </div>
+                    {% endif %}
+
+
+                </td>
+                <td>
+                    {{ project.venue }}
+                </td>
+                <td>
+                    {{ project.activity_type }}
+                </td>
+                <td>
+                    {{ project.collaborators }}
+                </td>
+            </tr>
+
+            {% endfor %}
+
+        </tbody>
+
+    </table>
+
+</main>

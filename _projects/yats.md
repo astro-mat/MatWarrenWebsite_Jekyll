@@ -1,10 +1,14 @@
 ---
 layout: project
-title: YOU ARE THE SIGNAL
+title: You Are The Signal
+activity_type: Installation
+venue: The Dock, Carrick-on-Shannon
+collaborators: Marketa Formanova
 permalink: /projects/yats/
 subtitle: Interactive audiovisual installation
 thumbnail: /images/YATS_Image_1.jpg
 date: 2026-09-18
+end-date:
 categories:
   - selected-projects
 tile_size: large

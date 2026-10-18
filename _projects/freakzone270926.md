@@ -1,6 +1,9 @@
 ---
 layout: project
-title: BBC RADIO 6 MUSIC
+title: BBC Radio 6 Music
+activity_type: Broadcast
+venue:
+collaborators:
 permalink: /projects/freakzone270926/
 subtitle: Stuart Maconie's FreakZone Airplay
 thumbnail: /images/270926_FreakZonePlay.jpg
