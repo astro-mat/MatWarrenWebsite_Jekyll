@@ -6,7 +6,7 @@ venue:
 collaborators:
 permalink: /projects/TabulaChordaeStudiesVoli/
 subtitle: Musical Release
-thumbnail: /images/TabulaChordaeStudiesVoli.jpg
+thumbnail: /images/releases/TabulaChordaeStudiesVoli.jpg
 date: 2026-07-05
 categories:
   - music

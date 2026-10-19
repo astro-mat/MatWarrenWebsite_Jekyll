@@ -6,7 +6,7 @@ venue:
 collaborators:
 permalink: /projects/freakzone270926/
 subtitle: Stuart Maconie's FreakZone Airplay
-thumbnail: /images/270926_FreakZonePlay.jpg
+thumbnail: /images/feed/270926_FreakZonePlay.jpg
 date: 2026-09-27
 categories:
   - music

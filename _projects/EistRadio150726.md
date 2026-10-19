@@ -6,7 +6,7 @@ venue:
 collaborators:
 permalink: /projects/EistRadio150726/
 subtitle: Radio Play
-thumbnail: /images/eist_radio.jpg
+thumbnail: /images//feed/eist_radio.jpg
 date: 2026-07-15
 categories:
   - music
