@@ -26,6 +26,8 @@ youtube: https://www.youtube.com/embed/_JTVOgCQugc?si=TnUCQHdBXZ2DkCFr
 A live performance for Bloop Groop Dublin , presenting experimental and exploratory music as part of the collective's ongoing programme of events.
 
 The performance formed part of Bloop Groop's platform for new work, bringing together artists working across electronic music, improvisation and sound-based practices.
+
+The event was also the first public use of a custom Max patch featuring a touchscreen interface for live mixing and effect-send control.
                 
 ## Credits
 ---
