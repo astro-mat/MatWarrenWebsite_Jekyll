@@ -16,7 +16,9 @@ title: "Mat Warren"
 
     <div class="project-grid">
 
-    {% for project in site.projects %}
+    {% assign projects = site.projects | sort: "date" | reverse %}
+
+    {% for project in projects %}
 
         <article class="project-tile project-tile-{{ project.tile_size }}" data-category="{{ project.categories | join: ' ' }}">
 

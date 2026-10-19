@@ -1,8 +1,8 @@
 ---
 layout: project
 title: BBC Radio 6 Music
-activity_type: Broadcast
-venue:
+activity_type: Radio Airplay
+venue: UK
 collaborators:
 permalink: /projects/freakzone270926/
 subtitle: Stuart Maconie's FreakZone Airplay
@@ -15,11 +15,11 @@ tile_size: tall
 
 ## Description
 
-You Are The Signal explores the relationship between movement and sound.
+
 
 ## Credits
 
-Mat Warren
+
 
 ## Links
 

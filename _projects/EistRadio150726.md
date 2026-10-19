@@ -1,12 +1,12 @@
 ---
 layout: project
 title: éist Radio
-activity_type: Broadcast
-venue:
+activity_type: Radio Airplay
+venue: Limerick, Ireland
 collaborators:
 permalink: /projects/EistRadio150726/
-subtitle: Radio Play
-thumbnail: /images//feed/eist_radio.jpg
+subtitle: Radio Play Of a track from Tabula Chordae Studies Vol. I
+thumbnail: /images/feed/eist_radio.jpg
 date: 2026-07-15
 categories:
   - music

@@ -1,12 +1,12 @@
 ---
 layout: project
 title: éist Radio
-activity_type: Broadcast
-venue:
+activity_type: Radio Airplay
+venue: Limerick, Ireland
 collaborators:
-permalink: /projects/EistRadio150726/
-subtitle: Radio Play
-thumbnail: /images//feed/eist_radio.jpg
+permalink: /projects/EistRadio200526/
+subtitle: Radio Play Of A track from Cogitare Deambulare
+thumbnail: /images/feed/eist_radio.jpg
 date: 2026-05-20
 categories:
   - music
