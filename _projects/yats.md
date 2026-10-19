@@ -2,13 +2,13 @@
 layout: project
 title: You Are The Signal
 activity_type: Installation
-venue: The Dock, Carrick-on-Shannon
+venue: The Dock, Carrick-on-Shannon, Ireland
 collaborators: Marketa Formanova
 permalink: /projects/yats/
 subtitle: Interactive audiovisual installation
 thumbnail: /images/YATS_Image_1.jpg
 date: 2026-09-18
-end-date:
+end_date:
 categories:
   - selected-projects
 tile_size: large
@@ -21,7 +21,7 @@ youtube: https://www.youtube.com/embed/7aS32M5_avM
 
 ---
 
-### Description
+## Description
 ---
 “You Are the Signal” is an interactive audiovisual installation, presented at The Dock, Carrick-on-Shannon as part of Culture Night 2026.
 
@@ -31,12 +31,12 @@ The system combines Kinect motion tracking, Max/MSP and TouchDesigner, with OSC 
 
 The project developed from an initial exploration of Max/MSP and TouchDesigner into a fully realised interactive installation presented to the public.
                 
-### Credits
+## Credits
 ---
 Movement facilitation by Marketa Formanova.
 
 With support from Leitrim County Council Arts Office and The Dock.
 
-### Links
+## Links
 ---
-[WATCH VIDEO](https://www.youtube.com/watch?v=7aS32M5_avM)
+[Video Document of Performance](https://www.youtube.com/watch?v=7aS32M5_avM)

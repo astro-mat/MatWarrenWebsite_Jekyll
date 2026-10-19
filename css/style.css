@@ -118,6 +118,16 @@ About page
     transition: color 0.3s, transform 0.3s;
 }
 
+.about-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+.about-links li {
+    margin-bottom: 0.5rem;
+}
+
 
 /* --------------------------------
 project tags

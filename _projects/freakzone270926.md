@@ -13,14 +13,14 @@ categories:
 tile_size: tall 
 ---
 
-### Description
+## Description
 
 You Are The Signal explores the relationship between movement and sound.
 
-### Credits
+## Credits
 
 Mat Warren
 
-### Links
+## Links
 
 Watch Video

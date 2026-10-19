@@ -16,7 +16,7 @@ images: /images/TabulaChordaeStudiesVoli.jpg
 youtube: https://bandcamp.com/EmbeddedPlayer/album=4177088247/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/
 ---
 
-### Description
+## Description
 
 Tabula chordae studies documents the earliest explorations of a self-built string instrument: a hollow-bodied, twin-neck table steel developed as both instrument and process. Conceived in response to a growing disenchantment with the familiarity of the electric guitar, the instrument was designed to remain close enough to feel instinctive while introducing new physical and musical possibilities. The name Tabula Chordae was chosen - a Latin-inspired phrase intended to evoke a "surface of strings". Adopted to distinguish it from the traditions of both the electric guitar and the conventional lap steel.
 
@@ -32,13 +32,13 @@ As a result, the performances remain intentionally close to their original form.
 
 Tabula chordae studies occupies the space between instrument design and musical composition. It documents the first chapter in the life of Tabula Chordae: an instrument that continues to evolve alongside the music created with it
 
-### Credits
+## Credits
 
 Recorded, Mixed and Mastered by Mat Warren at Studio Moo Moo, Spring 2026
 
 Artwork By Mat Warren
 
-### Links
+## Links
 
 [Buy/Stream on bandcamp](https://matwarren.bandcamp.com/album/tabula-chordae-studies-vol-i)  
 [Information on the Tabula chordae instrument](https://builds.polymat.ie/builds/PrototypeConsoleLapsteel_CMT001/)
