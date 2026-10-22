@@ -25,13 +25,15 @@ youtube: https://www.youtube.com/embed/7aS32M5_avM
 ---
 ## Description
 ---
-“You Are the Signal” is an interactive audiovisual installation, presented at The Dock, Carrick-on-Shannon as part of Culture Night 2026.
+"You Are The Signal" is an interactive audiovisual installation exploring whether movement itself can become an expressive instrument.
 
-The work explores how movement, presence and stillness can become compositional gestures within an evolving audiovisual environment. Using motion tracking, generative sound and responsive visuals, the installation allows participants to shape the sound and projected visuals through their movement.
+Presented at The Dock, Carrick-on-Shannon as part of Culture Night 2026, the work invites participants to use body movement to generate and shape sound and visuals in real time. Rather than responding to a pre-existing soundtrack or visual environment, participants become active contributors, using movement as a means of creative expression.
 
-The system combines Kinect motion tracking, Max/MSP and TouchDesigner, with OSC connecting the interactive sound and visual systems in real time.
+The project emerged from questions around performance, agency and instrument design. In many performance contexts, movement responds to music and visual media. You Are The Signal investigates the opposite relationship, exploring how movement can generate and influence audiovisual material and whether an interactive system can support the same sense of expression, responsiveness and discovery associated with traditional musical instruments.
 
-The project developed from an initial exploration of Max/MSP and TouchDesigner into a fully realised interactive installation presented to the public.
+Developed using Kinect motion tracking, Max/MSP and TouchDesigner, the system combines real-time sound generation and responsive visuals through OSC communication between audio and visual processes.
+
+The project continues to evolve as an ongoing artistic investigation into embodiment, participation, digital instrument design and interactive audiovisual performance.
                 
 ## Credits
 ---

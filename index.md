@@ -7,7 +7,7 @@ title: "Mat Warren"
 
     <div>
         <p>
-            Mat Warren is a musician, sound engineer and creative technologist based in Leitrim, Ireland. His work spans music, interactive audiovisual installation, creative coding, field recording, sound design and instrument building. This site documents projects, releases, broadcasts and ongoing work.
+            Mat Warren is a musician, digital artist and creative technologist based in Leitrim, Ireland. His work spans music, interactive audiovisual installation, creative coding, field recording, sound design and instrument building. This site documents projects, releases, broadcasts and ongoing work.
         </p>
 
     </div>
