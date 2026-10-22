@@ -30,11 +30,11 @@
     {{ content }}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/grid.js"></script>
-    <script src="../js/project.js"></script>
+    <script src="{{ '../js/main.js' | relative_url }}"></script>
+    <script src="{{ '../js/grid.js' | relative_url }}"></script>
+    <script src="{{ '../js/project.js' | relative_url }}"></script>
 
-
+{{ '/css/grid.css' | relative_url }}"
 
 </body>
 
