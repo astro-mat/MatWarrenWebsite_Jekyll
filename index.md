@@ -22,7 +22,7 @@ title: "Mat Warren"
 
         <article class="project-tile project-tile-{{ project.tile_size }}" data-category="{{ project.categories | join: ' ' }}">
 
-            <a href="{{ project.url }}" class="project-tile-link">
+            <a href="{{ project.url | relative_url }}" class="project-tile-link">
 
                 <img
                     src="{{ project.thumbnail | relative_url }}"
