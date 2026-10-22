@@ -47,7 +47,7 @@
 
                 {% for image in page.images %}
 
-                    <img src="{{ image }}" alt="Project Image" class="lightbox-image">
+                    <img src="{{ image | relative_url }}" alt="Project Image" class="lightbox-image">
 
                 {% endfor %}
 
