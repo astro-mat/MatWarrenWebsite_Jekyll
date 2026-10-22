@@ -25,7 +25,7 @@ title: "Mat Warren"
             <a href="{{ project.url }}" class="project-tile-link">
 
                 <img
-                    src="{{ project.thumbnail }}"
+                    src="{{ project.thumbnail | relative_url }}"
                     alt="{{ project.title }} {{ project.subtitle }}">
 
                 <div class="project-info">
