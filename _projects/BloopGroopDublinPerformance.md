@@ -11,7 +11,7 @@ date: 2026-04-24
 end_date:
 categories:
   - music
-  - selected projects
+  - selected-projects
 tile_size: large
 images:
   - /images/feed/BloopGroop_2.jpg

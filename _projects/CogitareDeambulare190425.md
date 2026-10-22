@@ -10,6 +10,7 @@ thumbnail: /images/releases/CogitareDeambulare2024.jpg
 date: 2025-04-19
 categories:
   - music
+  - selected-projects
 tile_size: large
 images: 
   - /images/releases/CogitareDeambulare2024.jpg
