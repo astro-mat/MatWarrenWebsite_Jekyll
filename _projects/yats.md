@@ -1,5 +1,5 @@
 ---
-layout: yats
+layout: project
 portfolio_content: true
 title: You Are The Signal
 activity_type: Installation
