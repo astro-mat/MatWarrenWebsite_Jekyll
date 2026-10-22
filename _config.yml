@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://astro-mat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/MatWarrenWebsite_Jekyll"
 title: "Mat Warren" # the name of your site, e.g. ACME Corp.
 
