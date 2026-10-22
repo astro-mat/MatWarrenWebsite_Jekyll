@@ -1,5 +1,6 @@
 ---
-layout: project
+layout: yats
+portfolio_content: true
 title: You Are The Signal
 activity_type: Installation
 venue: The Dock, Carrick-on-Shannon, Ireland
@@ -20,8 +21,8 @@ images:
   - /images/gallery/YATS_3.jpg
 youtube: https://www.youtube.com/embed/7aS32M5_avM
 
----
 
+---
 ## Description
 ---
 “You Are the Signal” is an interactive audiovisual installation, presented at The Dock, Carrick-on-Shannon as part of Culture Night 2026.

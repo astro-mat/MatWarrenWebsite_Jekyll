@@ -13,7 +13,7 @@ categories:
 tile_size: large
 images: 
   - /images/releases/Interstitial.jpg
-youtube: https://bandcamp.com/EmbeddedPlayer/album=2650729889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/
+youtube: https://bandcamp.com/EmbeddedPlayer/album=2650729889/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/
 ---
 
 ## Description

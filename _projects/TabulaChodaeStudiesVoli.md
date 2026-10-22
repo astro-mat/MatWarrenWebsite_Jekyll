@@ -12,8 +12,9 @@ categories:
   - music
   - selected-projects
 tile_size: large
-images: /images/TabulaChordaeStudiesVoli.jpg
-youtube: https://bandcamp.com/EmbeddedPlayer/album=4177088247/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/
+images: /images/releases/TabulaChordaeStudiesVoli.jpg
+youtube: 
+bandcamp: https://bandcamp.com/EmbeddedPlayer/album=4177088247/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/
 ---
 
 ## Description
