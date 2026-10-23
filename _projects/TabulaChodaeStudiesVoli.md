@@ -41,5 +41,18 @@ Artwork By Mat Warren
 
 ## Links
 
-[Buy/Stream on bandcamp](https://matwarren.bandcamp.com/album/tabula-chordae-studies-vol-i)  
-[Information on the Tabula chordae instrument](https://builds.polymat.ie/builds/PrototypeConsoleLapsteel_CMT001/)
+<a href="https://matwarren.bandcamp.com/album/tabula-chordae-studies-vol-i"
+   target="_blank"
+   rel="noopener noreferrer">
+    Buy/Stream on bandcamp →
+</a>
+<a href="https://builds.polymat.ie/builds/PrototypeConsoleLapsteel_CMT001/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Information about the Tabula Chordae Instrument →
+</a>
+<a href="https://www.matwarren.com/projects/BloopGroopDublinPerformance240426/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Images/video of live performance →
+</a>
