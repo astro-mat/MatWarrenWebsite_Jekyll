@@ -6,14 +6,14 @@ venue: Bloc+, Glasgow, UK
 collaborators: 
 permalink: /projects/NoiseBox180424
 subtitle: Live Improvised Guitar/Modular Synth/PC Performance
-thumbnail: /images/feed/noisebox.jpg
+thumbnail: /images/feed/noisebox.JPG
 date: 2024-04-18
 end_date:
 categories:
   - music
 tile_size: large
 images:
-  - /images/feed/noisebox.jpg
+  - /images/feed/noisebox.JPG
 
 youtube: https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FRadioMagnetic%2Fnoisebox-radio-016-apr%2F&utm_medium=share&utm_source=embed&utm_content=show
 ---
