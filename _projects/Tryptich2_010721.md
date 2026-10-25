@@ -11,7 +11,7 @@ date: 2021-08-01
 categories:
   - music
 tile_size: large
-images: /images/releases/Tryptich1.jpg
+images: /images/releases/tryptich1.jpg
 youtube: 
 bandcamp: https://bandcamp.com/EmbeddedPlayer/album=3690548119/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/
 ---

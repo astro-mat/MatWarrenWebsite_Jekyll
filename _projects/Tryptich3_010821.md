@@ -11,7 +11,7 @@ date: 2021-08-01
 categories:
   - music
 tile_size: large
-images: /images/releases/Tryptich3.jpg
+images: /images/releases/tryptich3.jpg
 youtube: 
 bandcamp: https://bandcamp.com/EmbeddedPlayer/album=4075652430/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/
 
