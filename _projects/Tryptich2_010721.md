@@ -6,7 +6,7 @@ venue:
 collaborators:
 permalink: /projects/Tryptich2_010821/
 subtitle: Musical Release
-thumbnail: /images/releases/Tryptich2.jpg
+thumbnail: /images/releases/tryptich2.jpg
 date: 2021-08-01
 categories:
   - music
