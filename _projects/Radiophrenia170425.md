@@ -32,3 +32,14 @@ Recorded, Mixed and Mastered by Mat Warren at Studio Moo Moo, winter 2025
 
 ## Links
 
+<a href="https://www.matwarren.com/projects/CogitareDeambulare190425/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Project page for Cogitare Deambulare →
+</a>
+<a href="https://matwarren.bandcamp.com/album/cogitare-deambulare"
+   target="_blank"
+   rel="noopener noreferrer">
+    Stream Cogitare Deambulare on Bandcamp  →
+</a>
+
