@@ -5,3 +5,6 @@ title: "Mat Warren" # the name of your site, e.g. ACME Corp.
 collections:
   projects:
     output: true
+
+  activities:
+    output: false

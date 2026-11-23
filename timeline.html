@@ -24,45 +24,55 @@ permalink: /timeline/
         </thead>
 
         <tbody>
+            {% assign items = site.projects | concat: site.activities | sort: "date" | reverse %}
 
-            {% assign projects = site.projects | sort: "date" | reverse %}
+        {% for item in items %}
 
-            {% for project in projects %}
+        <tr>
 
-            <tr>
-                <td>
-                    {{ project.date | date: "%d.%m.%Y" }}
-                </td>
-                <td>
-                    {% if project.end_date %}
-                        {{ project.end_date | date: "%d.%m.%Y" }}
-                    {% endif %}
-                </td>
-                <td>
-                    <a href="{{ project.url }}">
-                        {{ project.title }}
+            <td>
+                {{ item.date | date: "%d.%m.%Y" }}
+            </td>
+
+            <td>
+                {% if item.end_date %}
+                    {{ item.end_date | date: "%d.%m.%Y" }}
+                {% endif %}
+            </td>
+
+            <td>
+
+                {% if item.url %}
+                    <a href="{{ item.url }}">
+                        {{ item.title }}
                     </a>
+                {% else %}
+                    {{ item.title }}
+                {% endif %}
 
-                    {% if project.subtitle %}
-                        <div class="timeline-subtitle">
-                            {{ project.subtitle }}
-                        </div>
-                    {% endif %}
+                {% if item.subtitle %}
+                    <div class="timeline-subtitle">
+                        {{ item.subtitle }}
+                    </div>
+                {% endif %}
 
+            </td>
 
-                </td>
-                <td>
-                    {{ project.venue }}
-                </td>
-                <td>
-                    {{ project.activity_type }}
-                </td>
-                <td>
-                    {{ project.collaborators }}
-                </td>
-            </tr>
+            <td>
+                {{ item.venue }}
+            </td>
 
-            {% endfor %}
+            <td>
+                {{ item.activity_type }}
+            </td>
+
+            <td>
+                {{ item.collaborators }}
+            </td>
+
+        </tr>
+
+        {% endfor %}
 
         </tbody>
 
