@@ -7,7 +7,7 @@ collaborators:
 permalink: /projects/DrumnadubberArts211125
 subtitle: Live Improvised Modular Synth Performance
 thumbnail: /images/feed/DrumadubberArts211125.jpg
-date: 2025-11-21
+date: 2026-11-21
 end_date:
 categories:
   - music
