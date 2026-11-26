@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Drumadubber Arts Library Performance
+title: Drumnadubber Studios - Library Performance
 activity_type: Performance
 venue: Drumnadubber Studios, Co. Leitrim, Ireland
 collaborators: 
@@ -45,7 +45,7 @@ Voice 3:
 Channel 2 of the Ornament and crime into the V/oct input of mutable plaits set to high hat percussion mode. Trigger from random pams output and also the morph. Output into Channel 3 of the Four Play.
 
 Voice 4:
-Make noise Morphagene with custom reel. Only played the 1st splice which was Anthony Burtons recording of ["under milk wood" by Dylan Thomas](https://open.spotify.com/album/5N76qTciUzKcQuQZ8Dga6m?si=GrQ9sdVbR9q7jF6qudymHQ)
+Make noise Morphagene with custom reel. Only played the 1st splice which was Richard Burtons recording of ["under milk wood" by Dylan Thomas](https://open.spotify.com/album/5N76qTciUzKcQuQZ8Dga6m?si=GrQ9sdVbR9q7jF6qudymHQ)
  
 ## Links
 ---
