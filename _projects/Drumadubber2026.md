@@ -11,7 +11,7 @@ date: 2026-11-21
 end_date:
 categories:
   - music
-tile_size: large
+tile_size: small
 images:
   - /images/feed/DrumnadubberArts211125.jpg
   - /images/feed/DrumnadubberArts211125_2.jpg
