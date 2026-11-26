@@ -6,7 +6,7 @@ venue: Drumnadubber Studios, Co. Leitrim, Ireland
 collaborators: 
 permalink: /projects/DrumnadubberArts211125
 subtitle: Live Improvised Modular Synth Performance
-thumbnail: /images/feed/DrumadubberArts211125.jpg
+thumbnail: /images/feed/DrumnadubberArts211125.jpg
 date: 2026-11-21
 end_date:
 categories:
