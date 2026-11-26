@@ -13,9 +13,10 @@ categories:
   - music
 tile_size: large
 images:
+  - /images/feed/DrumnadubberArts211125.jpg
   - /images/feed/DrumnadubberArts211125_2.jpg
 
-youtube: https://www.youtube.com/embed/uB6To0lxDh4?si=dJ8Ku_TiPgVudDDR"
+youtube:
 
 ---
 
